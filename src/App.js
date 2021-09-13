@@ -1,8 +1,8 @@
 
 import './App.css';
-import About from './components/About';
 import Navbar from './components/Navbar';
-// import TextForm from './components/TextForm';
+import TextForm from './components/TextForm';
+// import About from './components/About';
 
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
 
       <Navbar title='Word Counter App' aboutText='About Sher web' />
       <div className='container my-5'>
-        {/* <TextForm heading='What you feeling today,'/> */}
-        <About />
+        <TextForm heading='What you feeling today,'/>
+        {/* <About /> */}
       </div>
     </>
   );
